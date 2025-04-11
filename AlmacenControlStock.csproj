@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48DADB6E-9BC8-4AD3-9408-17A1EFAE3EBD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlmacenControlStock</RootNamespace>
+    <AssemblyName>AlmacenControlStock</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\..\Ensamblados\Menú\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1">
+      <HintPath>..\..\..\..\Users\mccanto\Videos\DLL_recuperado\DevExpress.XtraTreeList.v20.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Entidades">
+      <HintPath>..\..\Ensamblados\Capas\Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="HelperUtils">
+      <HintPath>..\..\Ensamblados\Integral\HelperUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="IntegralAPI">
+      <HintPath>..\..\Ensamblados\Integral\IntegralAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Negocio">
+      <HintPath>..\..\Ensamblados\Capas\Negocio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UcBusqueda">
+      <HintPath>..\..\Ensamblados\Controles\UcBusqueda.dll</HintPath>
+    </Reference>
+    <Reference Include="UcButton">
+      <HintPath>..\..\Ensamblados\Controles\UcButton.dll</HintPath>
+    </Reference>
+    <Reference Include="UcCheckButton">
+      <HintPath>..\..\Ensamblados\Controles\UcCheckButton.dll</HintPath>
+    </Reference>
+    <Reference Include="UcCombobox">
+      <HintPath>..\..\Ensamblados\Controles\UcCombobox.dll</HintPath>
+    </Reference>
+    <Reference Include="UcComboboxGrid">
+      <HintPath>..\..\Ensamblados\Controles\UcComboboxGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="UcDataGridView">
+      <HintPath>..\..\Ensamblados\Controles\UcDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="UcDateTime">
+      <HintPath>..\..\Ensamblados\Controles\UcDateTime.dll</HintPath>
+    </Reference>
+    <Reference Include="UcRadioButton">
+      <HintPath>..\..\Ensamblados\Controles\UcRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="UcTextBox">
+      <HintPath>..\..\Ensamblados\Controles\UcTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="UcTextBoxMultiline">
+      <HintPath>..\..\Ensamblados\Controles\UcTextBoxMultiline.dll</HintPath>
+    </Reference>
+    <Reference Include="UcToolBar">
+      <HintPath>..\..\Ensamblados\Controles\UcToolBar.dll</HintPath>
+    </Reference>
+    <Reference Include="UcTreeList">
+      <HintPath>..\..\Ensamblados\Controles\UcTreeList.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAlmacenControlStockDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenControlStockDetalle.Designer.cs">
+      <DependentUpon>FrmAlmacenControlStockDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenControlStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenControlStock.Designer.cs">
+      <DependentUpon>FrmAlmacenControlStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionStockMasivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionStockMasivo.Designer.cs">
+      <DependentUpon>FrmAlmacenReubicacionStockMasivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenRevertirIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenRevertirIngreso.Designer.cs">
+      <DependentUpon>FrmAlmacenRevertirIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionStock.Designer.cs">
+      <DependentUpon>FrmAlmacenReubicacionStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionTipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionTipo.Designer.cs">
+      <DependentUpon>FrmAlmacenReubicacionTipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenRegularizaIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenRegularizaIngresos.Designer.cs">
+      <DependentUpon>FrmAlmacenRegularizaIngresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionUbicacionMasiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlmacenReubicacionUbicacionMasiva.Designer.cs">
+      <DependentUpon>FrmAlmacenReubicacionUbicacionMasiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImpresionEtiqueta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImpresionEtiqueta.Designer.cs">
+      <DependentUpon>FrmImpresionEtiqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Dts_AP_Bulto_ProductoProceso.cs">
+      <DependentUpon>Dts_AP_Bulto_ProductoProceso.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Dts_AP_Bulto_ProductoProceso.Designer.cs">
+      <DependentUpon>Dts_AP_Bulto_ProductoProceso.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="XtraReportEtiquetaProductoProceso.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReportEtiquetaProductoProceso.Designer.cs">
+      <DependentUpon>XtraReportEtiquetaProductoProceso.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAlmacenControlStockDetalle.resx">
+      <DependentUpon>FrmAlmacenControlStockDetalle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenControlStock.resx">
+      <DependentUpon>FrmAlmacenControlStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenReubicacionStockMasivo.resx">
+      <DependentUpon>FrmAlmacenReubicacionStockMasivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenRevertirIngreso.resx">
+      <DependentUpon>FrmAlmacenRevertirIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenReubicacionStock.resx">
+      <DependentUpon>FrmAlmacenReubicacionStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenReubicacionTipo.resx">
+      <DependentUpon>FrmAlmacenReubicacionTipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenRegularizaIngresos.resx">
+      <DependentUpon>FrmAlmacenRegularizaIngresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlmacenReubicacionUbicacionMasiva.resx">
+      <DependentUpon>FrmAlmacenReubicacionUbicacionMasiva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImpresionEtiqueta.resx">
+      <DependentUpon>FrmImpresionEtiqueta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReportEtiquetaProductoProceso.resx">
+      <DependentUpon>XtraReportEtiquetaProductoProceso.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Reportes\Dts_AP_Bulto_ProductoProceso.xsc">
+      <DependentUpon>Dts_AP_Bulto_ProductoProceso.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\Dts_AP_Bulto_ProductoProceso.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dts_AP_Bulto_ProductoProceso.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reportes\Dts_AP_Bulto_ProductoProceso.xss">
+      <DependentUpon>Dts_AP_Bulto_ProductoProceso.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\35638 - add green plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35745 - brick delete lego module.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35748 - brick go lego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35744 - add brick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64540 - print size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36362 - empty printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36359 - printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35946 - cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64642 - anticlockwise rotate shape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35690 - anticlockwise arrow rotate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35974 - disk save.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

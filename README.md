@@ -1,0 +1,1 @@
+# IntegradorERP.AlmacenControlStock
