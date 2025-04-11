@@ -234,7 +234,7 @@ namespace AlmacenControlStock
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(790, 264, 650, 400);
             this.layoutControl1.OptionsFocus.EnableAutoTabOrder = false;
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1307, 642);
+            this.layoutControl1.Size = new System.Drawing.Size(1307, 646);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -443,7 +443,7 @@ namespace AlmacenControlStock
             this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(1289, 554);
+            this.xtraTabControl1.Size = new System.Drawing.Size(1289, 558);
             this.xtraTabControl1.TabIndex = 11;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -455,7 +455,7 @@ namespace AlmacenControlStock
             this.xtraTabPage1.Enabled = true;
             this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1287, 519);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1287, 523);
             this.xtraTabPage1.Text = "Etiquetas";
             // 
             // layoutControl2
@@ -468,7 +468,7 @@ namespace AlmacenControlStock
             this.layoutControl2.Margin = new System.Windows.Forms.Padding(4);
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.Root = this.layoutControlGroup2;
-            this.layoutControl2.Size = new System.Drawing.Size(1287, 519);
+            this.layoutControl2.Size = new System.Drawing.Size(1287, 523);
             this.layoutControl2.TabIndex = 0;
             this.layoutControl2.Text = "layoutControl2";
             // 
@@ -568,7 +568,7 @@ namespace AlmacenControlStock
             this.dgv_bultos.Name = "dgv_bultos";
             this.dgv_bultos.NombreArchivoExportado = "EtiquetasLote";
             this.dgv_bultos.NombreGrilla = "Etiquetas de lotes";
-            this.dgv_bultos.Size = new System.Drawing.Size(1263, 460);
+            this.dgv_bultos.Size = new System.Drawing.Size(1263, 464);
             this.dgv_bultos.TabIndex = 4;
             this.dgv_bultos.Toolbar = this.tb_bultos;
             this.dgv_bultos.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -930,7 +930,7 @@ namespace AlmacenControlStock
             this.layoutControlItem13,
             this.simpleSeparator1});
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(1287, 519);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(1287, 523);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // layoutControlItem8
@@ -939,7 +939,7 @@ namespace AlmacenControlStock
             this.layoutControlItem8.Location = new System.Drawing.Point(0, 35);
             this.layoutControlItem8.MinSize = new System.Drawing.Size(156, 35);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(1267, 464);
+            this.layoutControlItem8.Size = new System.Drawing.Size(1267, 468);
             this.layoutControlItem8.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextVisible = false;
@@ -992,7 +992,7 @@ namespace AlmacenControlStock
             this.xtraTabPage2.Enabled = true;
             this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1287, 523);
+            this.xtraTabPage2.Size = new System.Drawing.Size(1287, 519);
             this.xtraTabPage2.Text = "Kardex";
             // 
             // layoutControl3
@@ -1003,7 +1003,7 @@ namespace AlmacenControlStock
             this.layoutControl3.Margin = new System.Windows.Forms.Padding(4);
             this.layoutControl3.Name = "layoutControl3";
             this.layoutControl3.Root = this.layoutControlGroup1;
-            this.layoutControl3.Size = new System.Drawing.Size(1287, 523);
+            this.layoutControl3.Size = new System.Drawing.Size(1287, 519);
             this.layoutControl3.TabIndex = 0;
             this.layoutControl3.Text = "layoutControl3";
             // 
@@ -1026,7 +1026,7 @@ namespace AlmacenControlStock
             this.dgv_kardex.Name = "dgv_kardex";
             this.dgv_kardex.NombreArchivoExportado = "KardexLote";
             this.dgv_kardex.NombreGrilla = "Kardex del Lote";
-            this.dgv_kardex.Size = new System.Drawing.Size(1263, 499);
+            this.dgv_kardex.Size = new System.Drawing.Size(1263, 495);
             this.dgv_kardex.TabIndex = 4;
             this.dgv_kardex.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grv_kardex});
@@ -1176,7 +1176,7 @@ namespace AlmacenControlStock
             this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem7});
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(1287, 523);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(1287, 519);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem7
@@ -1184,7 +1184,7 @@ namespace AlmacenControlStock
             this.layoutControlItem7.Control = this.dgv_kardex;
             this.layoutControlItem7.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(1267, 503);
+            this.layoutControlItem7.Size = new System.Drawing.Size(1267, 499);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
             // 
@@ -1210,7 +1210,7 @@ namespace AlmacenControlStock
             this.layoutControlItem12});
             this.Root.Name = "Root";
             this.Root.Padding = new DevExpress.XtraLayout.Utils.Padding(7, 7, 7, 7);
-            this.Root.Size = new System.Drawing.Size(1307, 642);
+            this.Root.Size = new System.Drawing.Size(1307, 646);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem10
@@ -1218,7 +1218,7 @@ namespace AlmacenControlStock
             this.layoutControlItem10.Control = this.xtraTabControl1;
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 70);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(1293, 558);
+            this.layoutControlItem10.Size = new System.Drawing.Size(1293, 562);
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextVisible = false;
             // 
@@ -1402,10 +1402,10 @@ namespace AlmacenControlStock
             // 
             this.pnl_Principal.Controls.Add(this.layoutControl1);
             this.pnl_Principal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_Principal.Location = new System.Drawing.Point(0, 38);
+            this.pnl_Principal.Location = new System.Drawing.Point(0, 34);
             this.pnl_Principal.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_Principal.Name = "pnl_Principal";
-            this.pnl_Principal.Size = new System.Drawing.Size(1311, 646);
+            this.pnl_Principal.Size = new System.Drawing.Size(1311, 650);
             this.pnl_Principal.TabIndex = 2;
             // 
             // btnReubicarBloque

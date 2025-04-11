@@ -1150,7 +1150,7 @@ namespace AlmacenControlStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.botonAceptar.Texto = "Asignar Ubicaciones";
+            this.botonAceptar.Texto = "Ubicar/Reubicar";
             this.botonAceptar.Visible = true;
             this.botonBuscar.Visible = true;
             this.botonExportar.Visible = true;

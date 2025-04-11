@@ -33,72 +33,78 @@ namespace AlmacenControlStock
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            ucBusqueda.Global.Columna columna1 = new ucBusqueda.Global.Columna();
-            ucBusqueda.Global.Columna columna2 = new ucBusqueda.Global.Columna();
-            ucBusqueda.Global.EstadoControl estadoControl1 = new ucBusqueda.Global.EstadoControl();
-            ucBusqueda.Global.EstadoControl estadoControl2 = new ucBusqueda.Global.EstadoControl();
-            ucBusqueda.Global.EstadoControl estadoControl3 = new ucBusqueda.Global.EstadoControl();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            ucBusqueda.Global.Columna columna7 = new ucBusqueda.Global.Columna();
+            ucBusqueda.Global.Columna columna8 = new ucBusqueda.Global.Columna();
+            ucBusqueda.Global.EstadoControl estadoControl85 = new ucBusqueda.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl86 = new ucBusqueda.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl87 = new ucBusqueda.Global.EstadoControl();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions4 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAlmacenReubicacionStockMasivo));
-            DevExpress.Utils.KeyShortcut keyShortcut1 = new DevExpress.Utils.KeyShortcut();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.KeyShortcut keyShortcut5 = new DevExpress.Utils.KeyShortcut();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject13 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            ucBusqueda.Global.Columna columna9 = new ucBusqueda.Global.Columna();
+            ucBusqueda.Global.Columna columna10 = new ucBusqueda.Global.Columna();
+            ucBusqueda.Global.EstadoControl estadoControl4 = new ucBusqueda.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl5 = new ucBusqueda.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl6 = new ucBusqueda.Global.EstadoControl();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions5 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.KeyShortcut keyShortcut6 = new DevExpress.Utils.KeyShortcut();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject17 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject18 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject19 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject20 = new DevExpress.Utils.SerializableAppearanceObject();
+            ucTextBox.Global.EstadoControl estadoControl88 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl89 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl90 = new ucTextBox.Global.EstadoControl();
             ucBusqueda.Global.Columna columna3 = new ucBusqueda.Global.Columna();
             ucBusqueda.Global.Columna columna4 = new ucBusqueda.Global.Columna();
-            ucBusqueda.Global.EstadoControl estadoControl7 = new ucBusqueda.Global.EstadoControl();
-            ucBusqueda.Global.EstadoControl estadoControl8 = new ucBusqueda.Global.EstadoControl();
-            ucBusqueda.Global.EstadoControl estadoControl9 = new ucBusqueda.Global.EstadoControl();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.KeyShortcut keyShortcut2 = new DevExpress.Utils.KeyShortcut();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
-            ucTextBox.Global.EstadoControl estadoControl4 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl5 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl6 = new ucTextBox.Global.EstadoControl();
-            ucBusqueda.Global.Columna columna5 = new ucBusqueda.Global.Columna();
-            ucBusqueda.Global.Columna columna6 = new ucBusqueda.Global.Columna();
-            ucBusqueda.Global.EstadoControl estadoControl13 = new ucBusqueda.Global.EstadoControl();
-            ucBusqueda.Global.EstadoControl estadoControl14 = new ucBusqueda.Global.EstadoControl();
-            ucBusqueda.Global.EstadoControl estadoControl15 = new ucBusqueda.Global.EstadoControl();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.KeyShortcut keyShortcut3 = new DevExpress.Utils.KeyShortcut();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
-            ucTextBox.Global.EstadoControl estadoControl10 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl11 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl12 = new ucTextBox.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl10 = new ucBusqueda.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl11 = new ucBusqueda.Global.EstadoControl();
+            ucBusqueda.Global.EstadoControl estadoControl12 = new ucBusqueda.Global.EstadoControl();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions6 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.KeyShortcut keyShortcut7 = new DevExpress.Utils.KeyShortcut();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject21 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject22 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject23 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject24 = new DevExpress.Utils.SerializableAppearanceObject();
+            ucTextBox.Global.EstadoControl estadoControl7 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl8 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl9 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl13 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl14 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl15 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl16 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl17 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl18 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl19 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl20 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl21 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl22 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl23 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl24 = new ucTextBox.Global.EstadoControl();
-            ucDataGridView.Clases.Global.EstadoControl estadoControl25 = new ucDataGridView.Clases.Global.EstadoControl();
-            ucDataGridView.Clases.Global.EstadoControl estadoControl26 = new ucDataGridView.Clases.Global.EstadoControl();
-            ucDataGridView.Clases.Global.EstadoControl estadoControl27 = new ucDataGridView.Clases.Global.EstadoControl();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
-            ucCheckButton.Global.EstadoControl estadoControl28 = new ucCheckButton.Global.EstadoControl();
-            ucCheckButton.Global.EstadoControl estadoControl29 = new ucCheckButton.Global.EstadoControl();
-            ucCheckButton.Global.EstadoControl estadoControl30 = new ucCheckButton.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl31 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl32 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl33 = new ucTextBox.Global.EstadoControl();
+            ucDataGridView.Clases.Global.EstadoControl estadoControl22 = new ucDataGridView.Clases.Global.EstadoControl();
+            ucDataGridView.Clases.Global.EstadoControl estadoControl23 = new ucDataGridView.Clases.Global.EstadoControl();
+            ucDataGridView.Clases.Global.EstadoControl estadoControl24 = new ucDataGridView.Clases.Global.EstadoControl();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue2 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            ucCheckButton.Global.EstadoControl estadoControl1 = new ucCheckButton.Global.EstadoControl();
+            ucCheckButton.Global.EstadoControl estadoControl2 = new ucCheckButton.Global.EstadoControl();
+            ucCheckButton.Global.EstadoControl estadoControl3 = new ucCheckButton.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl25 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl26 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl27 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl28 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl29 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl30 = new ucTextBox.Global.EstadoControl();
+            ucCheckButton.Global.EstadoControl estadoControl31 = new ucCheckButton.Global.EstadoControl();
+            ucCheckButton.Global.EstadoControl estadoControl32 = new ucCheckButton.Global.EstadoControl();
+            ucCheckButton.Global.EstadoControl estadoControl33 = new ucCheckButton.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl34 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl35 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl36 = new ucTextBox.Global.EstadoControl();
-            ucCheckButton.Global.EstadoControl estadoControl37 = new ucCheckButton.Global.EstadoControl();
-            ucCheckButton.Global.EstadoControl estadoControl38 = new ucCheckButton.Global.EstadoControl();
-            ucCheckButton.Global.EstadoControl estadoControl39 = new ucCheckButton.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl37 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl38 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl39 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl40 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl41 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl42 = new ucTextBox.Global.EstadoControl();
@@ -114,37 +120,31 @@ namespace AlmacenControlStock
             ucTextBox.Global.EstadoControl estadoControl52 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl53 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl54 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl55 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl56 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl57 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl58 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl59 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl60 = new ucTextBox.Global.EstadoControl();
-            ucButton.Clases.Global.EstadoControl estadoControl61 = new ucButton.Clases.Global.EstadoControl();
-            ucButton.Clases.Global.EstadoControl estadoControl62 = new ucButton.Clases.Global.EstadoControl();
-            ucButton.Clases.Global.EstadoControl estadoControl63 = new ucButton.Clases.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl64 = new ucCombobox.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl65 = new ucCombobox.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl66 = new ucCombobox.Global.EstadoControl();
-            DevExpress.Utils.KeyShortcut keyShortcut4 = new DevExpress.Utils.KeyShortcut();
+            ucButton.Clases.Global.EstadoControl estadoControl55 = new ucButton.Clases.Global.EstadoControl();
+            ucButton.Clases.Global.EstadoControl estadoControl56 = new ucButton.Clases.Global.EstadoControl();
+            ucButton.Clases.Global.EstadoControl estadoControl57 = new ucButton.Clases.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl58 = new ucCombobox.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl59 = new ucCombobox.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl60 = new ucCombobox.Global.EstadoControl();
+            DevExpress.Utils.KeyShortcut keyShortcut8 = new DevExpress.Utils.KeyShortcut();
+            ucTextBox.Global.EstadoControl estadoControl64 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl65 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl66 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl67 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl68 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl69 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl70 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl71 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl72 = new ucTextBox.Global.EstadoControl();
-            ucButton.Clases.Global.EstadoControl estadoControl73 = new ucButton.Clases.Global.EstadoControl();
-            ucButton.Clases.Global.EstadoControl estadoControl74 = new ucButton.Clases.Global.EstadoControl();
-            ucButton.Clases.Global.EstadoControl estadoControl75 = new ucButton.Clases.Global.EstadoControl();
+            ucButton.Clases.Global.EstadoControl estadoControl70 = new ucButton.Clases.Global.EstadoControl();
+            ucButton.Clases.Global.EstadoControl estadoControl71 = new ucButton.Clases.Global.EstadoControl();
+            ucButton.Clases.Global.EstadoControl estadoControl72 = new ucButton.Clases.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl91 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl92 = new ucTextBox.Global.EstadoControl();
+            ucTextBox.Global.EstadoControl estadoControl93 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl76 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl77 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl78 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl79 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl80 = new ucTextBox.Global.EstadoControl();
             ucTextBox.Global.EstadoControl estadoControl81 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl82 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl83 = new ucTextBox.Global.EstadoControl();
-            ucTextBox.Global.EstadoControl estadoControl84 = new ucTextBox.Global.EstadoControl();
             this.txt_bodega = new UcBusqueda();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.txt_ubi_codigo = new UcBusqueda();
@@ -175,12 +175,10 @@ namespace AlmacenControlStock
             this.c_categoria = new DevExpress.XtraGrid.Columns.GridColumn();
             this.c_n_fardo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.c_residuo = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.chk_pesado_manual = new UcCheckButton();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.lyt_peso_actual = new DevExpress.XtraLayout.LayoutControlItem();
             this.lyt_puerto_seleccionado = new DevExpress.XtraLayout.LayoutControlItem();
-            this.lyt_pesado_manual = new DevExpress.XtraLayout.LayoutControlItem();
             this.lyt_tab_detalle = new DevExpress.XtraLayout.LayoutControlItem();
             this.lyt_puerto = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
@@ -200,6 +198,8 @@ namespace AlmacenControlStock
             this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem7 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.chk_pesado_manual = new UcCheckButton();
+            this.lyt_pesado_manual = new DevExpress.XtraLayout.LayoutControlItem();
             this.txt_stock_reubicado = new UcTextBox();
             this.txt_excedente = new UcTextBox();
             this.chk_habilitar_excedente_stock = new UcCheckButton();
@@ -255,6 +255,7 @@ namespace AlmacenControlStock
             this.c_tmo_codigo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.c_eal_cant_disponible = new DevExpress.XtraGrid.Columns.GridColumn();
             this.c_tipo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.btnBuscarFiltros = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.txt_bodega.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
@@ -267,12 +268,10 @@ namespace AlmacenControlStock
             ((System.ComponentModel.ISupportInitialize)(this.txt_peso_actual.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Detalle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grv_Detalle)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chk_pesado_manual.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_peso_actual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_puerto_seleccionado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lyt_pesado_manual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_tab_detalle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_puerto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
@@ -292,6 +291,8 @@ namespace AlmacenControlStock
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chk_pesado_manual.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lyt_pesado_manual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_stock_reubicado.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_excedente.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chk_habilitar_excedente_stock.Properties)).BeginInit();
@@ -336,22 +337,22 @@ namespace AlmacenControlStock
             // 
             // txt_bodega
             // 
-            columna1.Caption = "Código";
-            columna1.Control = this.txt_bodega;
-            columna1.DataField = "BODEGA";
-            columna1.OrdenFiltro = 1;
-            columna2.Caption = "Nombre";
-            columna2.Control = this.txt_bodega;
-            columna2.DataField = "NOMBRE";
-            columna2.OrdenFiltro = 2;
+            columna7.Caption = "Código";
+            columna7.Control = this.txt_bodega;
+            columna7.DataField = "BODEGA";
+            columna7.OrdenFiltro = 1;
+            columna8.Caption = "Nombre";
+            columna8.Control = this.txt_bodega;
+            columna8.DataField = "NOMBRE";
+            columna8.OrdenFiltro = 2;
             this.txt_bodega.Columnas = new ucBusqueda.Global.Columna[] {
-        columna1,
-        columna2};
+        columna7,
+        columna8};
             this.txt_bodega.EnterMoveNextControl = true;
             this.txt_bodega.Entidad = "bodega";
-            this.txt_bodega.EstadoBuscar = estadoControl1;
-            this.txt_bodega.EstadoEdicion = estadoControl2;
-            this.txt_bodega.EstadoNuevo = estadoControl3;
+            this.txt_bodega.EstadoBuscar = estadoControl85;
+            this.txt_bodega.EstadoEdicion = estadoControl86;
+            this.txt_bodega.EstadoNuevo = estadoControl87;
             this.txt_bodega.Key = "BODEGA";
             this.txt_bodega.Location = new System.Drawing.Point(877, 48);
             this.txt_bodega.Margin = new System.Windows.Forms.Padding(4);
@@ -366,9 +367,9 @@ namespace AlmacenControlStock
             this.txt_bodega.Properties.AppearanceFocused.Options.UseBackColor = true;
             this.txt_bodega.Properties.AppearanceFocused.Options.UseForeColor = true;
             this.txt_bodega.Properties.AutoHeight = false;
-            editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
+            editorButtonImageOptions4.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions4.Image")));
             this.txt_bodega.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, keyShortcut1, serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions4, keyShortcut5, serializableAppearanceObject13, serializableAppearanceObject14, serializableAppearanceObject15, serializableAppearanceObject16, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.txt_bodega.Properties.MaxLength = 4;
             this.txt_bodega.Size = new System.Drawing.Size(248, 31);
             this.txt_bodega.StyleController = this.layoutControl1;
@@ -389,7 +390,6 @@ namespace AlmacenControlStock
             this.layoutControl1.Controls.Add(this.txt_peso_actual);
             this.layoutControl1.Controls.Add(this.txt_descripcion);
             this.layoutControl1.Controls.Add(this.dgv_Detalle);
-            this.layoutControl1.Controls.Add(this.chk_pesado_manual);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(2, 2);
             this.layoutControl1.Margin = new System.Windows.Forms.Padding(4);
@@ -402,23 +402,23 @@ namespace AlmacenControlStock
             // 
             // txt_ubi_codigo
             // 
-            columna3.Caption = "Código";
-            columna3.Control = this.txt_ubi_codigo;
-            columna3.DataField = "ubi_codigo";
-            columna3.OrdenFiltro = 2;
-            columna4.Caption = "Descripción";
-            columna4.Control = this.txt_ubi_descripcion;
-            columna4.DataField = "ubi_descripcion";
-            columna4.OrdenFiltro = 1;
+            columna9.Caption = "Código";
+            columna9.Control = this.txt_ubi_descripcion;
+            columna9.DataField = "ubi_codigo";
+            columna9.OrdenFiltro = 2;
+            columna10.Caption = "Descripción";
+            columna10.Control = this.txt_ubi_codigo;
+            columna10.DataField = "ubi_descripcion";
+            columna10.OrdenFiltro = 1;
             this.txt_ubi_codigo.Columnas = new ucBusqueda.Global.Columna[] {
-        columna3,
-        columna4};
+        columna9,
+        columna10};
             this.txt_ubi_codigo.EnterMoveNextControl = true;
-            this.txt_ubi_codigo.EstadoBuscar = estadoControl7;
-            this.txt_ubi_codigo.EstadoEdicion = estadoControl8;
-            this.txt_ubi_codigo.EstadoNuevo = estadoControl9;
-            this.txt_ubi_codigo.Key = "ubi_codigo";
-            this.txt_ubi_codigo.Location = new System.Drawing.Point(148, 195);
+            this.txt_ubi_codigo.EstadoBuscar = estadoControl4;
+            this.txt_ubi_codigo.EstadoEdicion = estadoControl5;
+            this.txt_ubi_codigo.EstadoNuevo = estadoControl6;
+            this.txt_ubi_codigo.Key = "ubi_codalternativo";
+            this.txt_ubi_codigo.Location = new System.Drawing.Point(148, 164);
             this.txt_ubi_codigo.Margin = new System.Windows.Forms.Padding(4);
             this.txt_ubi_codigo.MetodoBusqueda = "RetornaAyudaUbicacionesReub";
             this.txt_ubi_codigo.Modificado = true;
@@ -433,9 +433,9 @@ namespace AlmacenControlStock
             this.txt_ubi_codigo.Properties.AppearanceFocused.Options.UseBackColor = true;
             this.txt_ubi_codigo.Properties.AppearanceFocused.Options.UseForeColor = true;
             this.txt_ubi_codigo.Properties.AutoHeight = false;
-            editorButtonImageOptions2.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions2.Image")));
+            editorButtonImageOptions5.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions5.Image")));
             this.txt_ubi_codigo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, keyShortcut2, serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions5, keyShortcut6, serializableAppearanceObject17, serializableAppearanceObject18, serializableAppearanceObject19, serializableAppearanceObject20, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.txt_ubi_codigo.Size = new System.Drawing.Size(110, 31);
             this.txt_ubi_codigo.StyleController = this.layoutControl1;
             this.txt_ubi_codigo.TabIndex = 6;
@@ -444,10 +444,10 @@ namespace AlmacenControlStock
             // 
             this.txt_ubi_descripcion.ControlBusquedaFocus = this.txt_ubi_codigo;
             this.txt_ubi_descripcion.EnterMoveNextControl = true;
-            this.txt_ubi_descripcion.EstadoBuscar = estadoControl4;
-            this.txt_ubi_descripcion.EstadoEdicion = estadoControl5;
-            this.txt_ubi_descripcion.EstadoNuevo = estadoControl6;
-            this.txt_ubi_descripcion.Location = new System.Drawing.Point(262, 195);
+            this.txt_ubi_descripcion.EstadoBuscar = estadoControl88;
+            this.txt_ubi_descripcion.EstadoEdicion = estadoControl89;
+            this.txt_ubi_descripcion.EstadoNuevo = estadoControl90;
+            this.txt_ubi_descripcion.Location = new System.Drawing.Point(262, 164);
             this.txt_ubi_descripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_ubi_descripcion.Modificado = true;
             this.txt_ubi_descripcion.ModoLabel = true;
@@ -467,22 +467,22 @@ namespace AlmacenControlStock
             // 
             // txt_articulo
             // 
-            columna5.Caption = "Código";
-            columna5.Control = this.txt_articulo;
-            columna5.DataField = "ARTICULO";
-            columna5.OrdenFiltro = 1;
-            columna6.Caption = "Descripción";
-            columna6.Control = this.txt_descripcion;
-            columna6.DataField = "DESCRIPCION";
-            columna6.OrdenFiltro = 2;
+            columna3.Caption = "Código";
+            columna3.Control = this.txt_articulo;
+            columna3.DataField = "ARTICULO";
+            columna3.OrdenFiltro = 1;
+            columna4.Caption = "Descripción";
+            columna4.Control = this.txt_descripcion;
+            columna4.DataField = "DESCRIPCION";
+            columna4.OrdenFiltro = 2;
             this.txt_articulo.Columnas = new ucBusqueda.Global.Columna[] {
-        columna5,
-        columna6};
+        columna3,
+        columna4};
             this.txt_articulo.EnterMoveNextControl = true;
             this.txt_articulo.Entidad = "artículos";
-            this.txt_articulo.EstadoBuscar = estadoControl13;
-            this.txt_articulo.EstadoEdicion = estadoControl14;
-            this.txt_articulo.EstadoNuevo = estadoControl15;
+            this.txt_articulo.EstadoBuscar = estadoControl10;
+            this.txt_articulo.EstadoEdicion = estadoControl11;
+            this.txt_articulo.EstadoNuevo = estadoControl12;
             this.txt_articulo.Key = "ARTICULO";
             this.txt_articulo.Location = new System.Drawing.Point(96, 48);
             this.txt_articulo.Margin = new System.Windows.Forms.Padding(4);
@@ -496,9 +496,9 @@ namespace AlmacenControlStock
             this.txt_articulo.Properties.AppearanceFocused.Options.UseBackColor = true;
             this.txt_articulo.Properties.AppearanceFocused.Options.UseForeColor = true;
             this.txt_articulo.Properties.AutoHeight = false;
-            editorButtonImageOptions3.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions3.Image")));
+            editorButtonImageOptions6.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions6.Image")));
             this.txt_articulo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, keyShortcut3, serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions6, keyShortcut7, serializableAppearanceObject21, serializableAppearanceObject22, serializableAppearanceObject23, serializableAppearanceObject24, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.txt_articulo.Properties.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txt_articulo.Properties.MaxLength = 15;
             this.txt_articulo.Size = new System.Drawing.Size(154, 31);
@@ -510,9 +510,9 @@ namespace AlmacenControlStock
             // txt_descripcion
             // 
             this.txt_descripcion.EnterMoveNextControl = true;
-            this.txt_descripcion.EstadoBuscar = estadoControl10;
-            this.txt_descripcion.EstadoEdicion = estadoControl11;
-            this.txt_descripcion.EstadoNuevo = estadoControl12;
+            this.txt_descripcion.EstadoBuscar = estadoControl7;
+            this.txt_descripcion.EstadoEdicion = estadoControl8;
+            this.txt_descripcion.EstadoNuevo = estadoControl9;
             this.txt_descripcion.Location = new System.Drawing.Point(254, 48);
             this.txt_descripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_descripcion.Modificado = true;
@@ -534,9 +534,9 @@ namespace AlmacenControlStock
             // txt_lote
             // 
             this.txt_lote.EnterMoveNextControl = true;
-            this.txt_lote.EstadoBuscar = estadoControl16;
-            this.txt_lote.EstadoEdicion = estadoControl17;
-            this.txt_lote.EstadoNuevo = estadoControl18;
+            this.txt_lote.EstadoBuscar = estadoControl13;
+            this.txt_lote.EstadoEdicion = estadoControl14;
+            this.txt_lote.EstadoNuevo = estadoControl15;
             this.txt_lote.Location = new System.Drawing.Point(96, 83);
             this.txt_lote.Margin = new System.Windows.Forms.Padding(4);
             this.txt_lote.Modificado = true;
@@ -573,7 +573,7 @@ namespace AlmacenControlStock
             this.tb_Detalle.Dock = System.Windows.Forms.DockStyle.None;
             this.tb_Detalle.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.tb_Detalle.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.tb_Detalle.Location = new System.Drawing.Point(9, 237);
+            this.tb_Detalle.Location = new System.Drawing.Point(9, 206);
             this.tb_Detalle.Name = "tb_Detalle";
             this.tb_Detalle.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.tb_Detalle.Size = new System.Drawing.Size(1270, 31);
@@ -585,9 +585,9 @@ namespace AlmacenControlStock
             // 
             this.txt_puerto_com.EditValue = "";
             this.txt_puerto_com.EnterMoveNextControl = true;
-            this.txt_puerto_com.EstadoBuscar = estadoControl19;
-            this.txt_puerto_com.EstadoEdicion = estadoControl20;
-            this.txt_puerto_com.EstadoNuevo = estadoControl21;
+            this.txt_puerto_com.EstadoBuscar = estadoControl16;
+            this.txt_puerto_com.EstadoEdicion = estadoControl17;
+            this.txt_puerto_com.EstadoNuevo = estadoControl18;
             this.txt_puerto_com.Location = new System.Drawing.Point(1136, 32);
             this.txt_puerto_com.Margin = new System.Windows.Forms.Padding(4);
             this.txt_puerto_com.Modificado = true;
@@ -614,9 +614,9 @@ namespace AlmacenControlStock
             // 
             this.txt_peso_actual.EditValue = "";
             this.txt_peso_actual.EnterMoveNextControl = true;
-            this.txt_peso_actual.EstadoBuscar = estadoControl22;
-            this.txt_peso_actual.EstadoEdicion = estadoControl23;
-            this.txt_peso_actual.EstadoNuevo = estadoControl24;
+            this.txt_peso_actual.EstadoBuscar = estadoControl19;
+            this.txt_peso_actual.EstadoEdicion = estadoControl20;
+            this.txt_peso_actual.EstadoNuevo = estadoControl21;
             this.txt_peso_actual.Location = new System.Drawing.Point(1136, 82);
             this.txt_peso_actual.Margin = new System.Windows.Forms.Padding(4);
             this.txt_peso_actual.Modificado = true;
@@ -654,16 +654,16 @@ namespace AlmacenControlStock
             // 
             // 
             this.dgv_Detalle.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
-            this.dgv_Detalle.EstadoBuscar = estadoControl25;
-            this.dgv_Detalle.EstadoEdicion = estadoControl26;
-            this.dgv_Detalle.EstadoNuevo = estadoControl27;
+            this.dgv_Detalle.EstadoBuscar = estadoControl22;
+            this.dgv_Detalle.EstadoEdicion = estadoControl23;
+            this.dgv_Detalle.EstadoNuevo = estadoControl24;
             this.dgv_Detalle.HabilitarFooter = true;
-            this.dgv_Detalle.Location = new System.Drawing.Point(9, 272);
+            this.dgv_Detalle.Location = new System.Drawing.Point(9, 241);
             this.dgv_Detalle.MainView = this.grv_Detalle;
             this.dgv_Detalle.Margin = new System.Windows.Forms.Padding(4);
             this.dgv_Detalle.MostrarPanelAgrupacion = false;
             this.dgv_Detalle.Name = "dgv_Detalle";
-            this.dgv_Detalle.Size = new System.Drawing.Size(1270, 384);
+            this.dgv_Detalle.Size = new System.Drawing.Size(1270, 415);
             this.dgv_Detalle.TabIndex = 11;
             this.dgv_Detalle.Toolbar = this.tb_Detalle;
             this.dgv_Detalle.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -691,14 +691,14 @@ namespace AlmacenControlStock
             this.c_residuo});
             this.grv_Detalle.DetailHeight = 512;
             this.grv_Detalle.FixedLineWidth = 3;
-            gridFormatRule1.ApplyToRow = true;
-            gridFormatRule1.Column = this.c_residuo;
-            gridFormatRule1.Name = "Residuo";
-            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
-            formatConditionRuleValue1.PredefinedName = "Red Bold Text";
-            formatConditionRuleValue1.Value1 = true;
-            gridFormatRule1.Rule = formatConditionRuleValue1;
-            this.grv_Detalle.FormatRules.Add(gridFormatRule1);
+            gridFormatRule2.ApplyToRow = true;
+            gridFormatRule2.Column = this.c_residuo;
+            gridFormatRule2.Name = "Residuo";
+            formatConditionRuleValue2.Condition = DevExpress.XtraEditors.FormatCondition.Equal;
+            formatConditionRuleValue2.PredefinedName = "Red Bold Text";
+            formatConditionRuleValue2.Value1 = true;
+            gridFormatRule2.Rule = formatConditionRuleValue2;
+            this.grv_Detalle.FormatRules.Add(gridFormatRule2);
             this.grv_Detalle.GridControl = this.dgv_Detalle;
             this.grv_Detalle.Name = "grv_Detalle";
             this.grv_Detalle.OptionsBehavior.Editable = false;
@@ -910,30 +910,6 @@ namespace AlmacenControlStock
             this.c_residuo.OptionsColumn.ShowInExpressionEditor = false;
             this.c_residuo.Width = 112;
             // 
-            // chk_pesado_manual
-            // 
-            this.chk_pesado_manual.EnterMoveNextControl = true;
-            estadoControl28.Enabled = false;
-            this.chk_pesado_manual.EstadoBuscar = estadoControl28;
-            estadoControl29.Enabled = false;
-            this.chk_pesado_manual.EstadoEdicion = estadoControl29;
-            this.chk_pesado_manual.EstadoNuevo = estadoControl30;
-            this.chk_pesado_manual.Location = new System.Drawing.Point(9, 125);
-            this.chk_pesado_manual.Margin = new System.Windows.Forms.Padding(4);
-            this.chk_pesado_manual.Name = "chk_pesado_manual";
-            // 
-            // 
-            // 
-            this.chk_pesado_manual.Properties.AppearanceFocused.BackColor = System.Drawing.Color.Cornsilk;
-            this.chk_pesado_manual.Properties.AppearanceFocused.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.chk_pesado_manual.Properties.AppearanceFocused.Options.UseBackColor = true;
-            this.chk_pesado_manual.Properties.AppearanceFocused.Options.UseForeColor = true;
-            this.chk_pesado_manual.Properties.Caption = "Habilitar pesado manual";
-            this.chk_pesado_manual.Size = new System.Drawing.Size(1270, 27);
-            this.chk_pesado_manual.StyleController = this.layoutControl1;
-            this.chk_pesado_manual.TabIndex = 8;
-            this.chk_pesado_manual.CheckedChanged += new System.EventHandler(this.chk_pesado_manual_CheckedChanged);
-            // 
             // Root
             // 
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -942,7 +918,6 @@ namespace AlmacenControlStock
             this.layoutControlItem1,
             this.lyt_peso_actual,
             this.lyt_puerto_seleccionado,
-            this.lyt_pesado_manual,
             this.lyt_tab_detalle,
             this.lyt_puerto,
             this.layoutControlGroup3,
@@ -955,9 +930,9 @@ namespace AlmacenControlStock
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.dgv_Detalle;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 263);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 232);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1274, 388);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1274, 419);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -983,19 +958,10 @@ namespace AlmacenControlStock
             this.lyt_puerto_seleccionado.TextSize = new System.Drawing.Size(0, 0);
             this.lyt_puerto_seleccionado.TextVisible = false;
             // 
-            // lyt_pesado_manual
-            // 
-            this.lyt_pesado_manual.Control = this.chk_pesado_manual;
-            this.lyt_pesado_manual.Location = new System.Drawing.Point(0, 116);
-            this.lyt_pesado_manual.Name = "lyt_pesado_manual";
-            this.lyt_pesado_manual.Size = new System.Drawing.Size(1274, 31);
-            this.lyt_pesado_manual.TextSize = new System.Drawing.Size(0, 0);
-            this.lyt_pesado_manual.TextVisible = false;
-            // 
             // lyt_tab_detalle
             // 
             this.lyt_tab_detalle.Control = this.tb_Detalle;
-            this.lyt_tab_detalle.Location = new System.Drawing.Point(0, 228);
+            this.lyt_tab_detalle.Location = new System.Drawing.Point(0, 197);
             this.lyt_tab_detalle.MaxSize = new System.Drawing.Size(0, 35);
             this.lyt_tab_detalle.MinSize = new System.Drawing.Size(156, 35);
             this.lyt_tab_detalle.Name = "lyt_tab_detalle";
@@ -1024,7 +990,7 @@ namespace AlmacenControlStock
             this.emptySpaceItem8,
             this.emptySpaceItem5,
             this.layoutControlItem23});
-            this.layoutControlGroup3.Location = new System.Drawing.Point(0, 147);
+            this.layoutControlGroup3.Location = new System.Drawing.Point(0, 116);
             this.layoutControlGroup3.Name = "layoutControlGroup3";
             this.layoutControlGroup3.Padding = new DevExpress.XtraLayout.Utils.Padding(4, 4, 4, 4);
             this.layoutControlGroup3.Size = new System.Drawing.Size(1274, 81);
@@ -1232,12 +1198,44 @@ namespace AlmacenControlStock
             this.emptySpaceItem7.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
+            // chk_pesado_manual
+            // 
+            this.chk_pesado_manual.EnterMoveNextControl = true;
+            estadoControl1.Enabled = false;
+            this.chk_pesado_manual.EstadoBuscar = estadoControl1;
+            estadoControl2.Enabled = false;
+            this.chk_pesado_manual.EstadoEdicion = estadoControl2;
+            this.chk_pesado_manual.EstadoNuevo = estadoControl3;
+            this.chk_pesado_manual.Location = new System.Drawing.Point(9, 125);
+            this.chk_pesado_manual.Margin = new System.Windows.Forms.Padding(4);
+            this.chk_pesado_manual.Name = "chk_pesado_manual";
+            // 
+            // 
+            // 
+            this.chk_pesado_manual.Properties.AppearanceFocused.BackColor = System.Drawing.Color.Cornsilk;
+            this.chk_pesado_manual.Properties.AppearanceFocused.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.chk_pesado_manual.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.chk_pesado_manual.Properties.AppearanceFocused.Options.UseForeColor = true;
+            this.chk_pesado_manual.Properties.Caption = "Habilitar pesado manual";
+            this.chk_pesado_manual.Size = new System.Drawing.Size(1270, 27);
+            this.chk_pesado_manual.StyleController = this.layoutControl1;
+            this.chk_pesado_manual.TabIndex = 8;
+            this.chk_pesado_manual.CheckedChanged += new System.EventHandler(this.chk_pesado_manual_CheckedChanged);
+            // 
+            // lyt_pesado_manual
+            // 
+            this.lyt_pesado_manual.Location = new System.Drawing.Point(0, 116);
+            this.lyt_pesado_manual.Name = "lyt_pesado_manual";
+            this.lyt_pesado_manual.Size = new System.Drawing.Size(1274, 31);
+            this.lyt_pesado_manual.TextSize = new System.Drawing.Size(0, 0);
+            this.lyt_pesado_manual.TextVisible = false;
+            // 
             // txt_stock_reubicado
             // 
             this.txt_stock_reubicado.EnterMoveNextControl = true;
-            this.txt_stock_reubicado.EstadoBuscar = estadoControl31;
-            this.txt_stock_reubicado.EstadoEdicion = estadoControl32;
-            this.txt_stock_reubicado.EstadoNuevo = estadoControl33;
+            this.txt_stock_reubicado.EstadoBuscar = estadoControl25;
+            this.txt_stock_reubicado.EstadoEdicion = estadoControl26;
+            this.txt_stock_reubicado.EstadoNuevo = estadoControl27;
             this.txt_stock_reubicado.Location = new System.Drawing.Point(1130, 625);
             this.txt_stock_reubicado.Margin = new System.Windows.Forms.Padding(4);
             this.txt_stock_reubicado.Modificado = true;
@@ -1261,9 +1259,9 @@ namespace AlmacenControlStock
             // txt_excedente
             // 
             this.txt_excedente.EnterMoveNextControl = true;
-            this.txt_excedente.EstadoBuscar = estadoControl34;
-            this.txt_excedente.EstadoEdicion = estadoControl35;
-            this.txt_excedente.EstadoNuevo = estadoControl36;
+            this.txt_excedente.EstadoBuscar = estadoControl28;
+            this.txt_excedente.EstadoEdicion = estadoControl29;
+            this.txt_excedente.EstadoNuevo = estadoControl30;
             this.txt_excedente.Location = new System.Drawing.Point(513, 625);
             this.txt_excedente.Margin = new System.Windows.Forms.Padding(4);
             this.txt_excedente.Modificado = true;
@@ -1287,9 +1285,9 @@ namespace AlmacenControlStock
             // chk_habilitar_excedente_stock
             // 
             this.chk_habilitar_excedente_stock.EnterMoveNextControl = true;
-            this.chk_habilitar_excedente_stock.EstadoBuscar = estadoControl37;
-            this.chk_habilitar_excedente_stock.EstadoEdicion = estadoControl38;
-            this.chk_habilitar_excedente_stock.EstadoNuevo = estadoControl39;
+            this.chk_habilitar_excedente_stock.EstadoBuscar = estadoControl31;
+            this.chk_habilitar_excedente_stock.EstadoEdicion = estadoControl32;
+            this.chk_habilitar_excedente_stock.EstadoNuevo = estadoControl33;
             this.chk_habilitar_excedente_stock.Location = new System.Drawing.Point(9, 625);
             this.chk_habilitar_excedente_stock.Margin = new System.Windows.Forms.Padding(4);
             this.chk_habilitar_excedente_stock.Name = "chk_habilitar_excedente_stock";
@@ -1310,9 +1308,9 @@ namespace AlmacenControlStock
             // txt_stock_por_reubicar
             // 
             this.txt_stock_por_reubicar.EnterMoveNextControl = true;
-            this.txt_stock_por_reubicar.EstadoBuscar = estadoControl40;
-            this.txt_stock_por_reubicar.EstadoEdicion = estadoControl41;
-            this.txt_stock_por_reubicar.EstadoNuevo = estadoControl42;
+            this.txt_stock_por_reubicar.EstadoBuscar = estadoControl34;
+            this.txt_stock_por_reubicar.EstadoEdicion = estadoControl35;
+            this.txt_stock_por_reubicar.EstadoNuevo = estadoControl36;
             this.txt_stock_por_reubicar.Location = new System.Drawing.Point(815, 625);
             this.txt_stock_por_reubicar.Margin = new System.Windows.Forms.Padding(4);
             this.txt_stock_por_reubicar.Modificado = true;
@@ -1416,9 +1414,9 @@ namespace AlmacenControlStock
             // txt_ubicacion
             // 
             this.txt_ubicacion.EnterMoveNextControl = true;
-            this.txt_ubicacion.EstadoBuscar = estadoControl43;
-            this.txt_ubicacion.EstadoEdicion = estadoControl44;
-            this.txt_ubicacion.EstadoNuevo = estadoControl45;
+            this.txt_ubicacion.EstadoBuscar = estadoControl37;
+            this.txt_ubicacion.EstadoEdicion = estadoControl38;
+            this.txt_ubicacion.EstadoNuevo = estadoControl39;
             this.txt_ubicacion.Location = new System.Drawing.Point(877, 83);
             this.txt_ubicacion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_ubicacion.Modificado = true;
@@ -1440,9 +1438,9 @@ namespace AlmacenControlStock
             // txt_identificador
             // 
             this.txt_identificador.EnterMoveNextControl = true;
-            this.txt_identificador.EstadoBuscar = estadoControl46;
-            this.txt_identificador.EstadoEdicion = estadoControl47;
-            this.txt_identificador.EstadoNuevo = estadoControl48;
+            this.txt_identificador.EstadoBuscar = estadoControl40;
+            this.txt_identificador.EstadoEdicion = estadoControl41;
+            this.txt_identificador.EstadoNuevo = estadoControl42;
             this.txt_identificador.Location = new System.Drawing.Point(877, 118);
             this.txt_identificador.Margin = new System.Windows.Forms.Padding(4);
             this.txt_identificador.Modificado = true;
@@ -1464,9 +1462,9 @@ namespace AlmacenControlStock
             // txt_etiqueta
             // 
             this.txt_etiqueta.EnterMoveNextControl = true;
-            this.txt_etiqueta.EstadoBuscar = estadoControl49;
-            this.txt_etiqueta.EstadoEdicion = estadoControl50;
-            this.txt_etiqueta.EstadoNuevo = estadoControl51;
+            this.txt_etiqueta.EstadoBuscar = estadoControl43;
+            this.txt_etiqueta.EstadoEdicion = estadoControl44;
+            this.txt_etiqueta.EstadoNuevo = estadoControl45;
             this.txt_etiqueta.Location = new System.Drawing.Point(96, 118);
             this.txt_etiqueta.Margin = new System.Windows.Forms.Padding(4);
             this.txt_etiqueta.Modificado = true;
@@ -1488,9 +1486,9 @@ namespace AlmacenControlStock
             // txt_peso_bruto_original
             // 
             this.txt_peso_bruto_original.EnterMoveNextControl = true;
-            this.txt_peso_bruto_original.EstadoBuscar = estadoControl52;
-            this.txt_peso_bruto_original.EstadoEdicion = estadoControl53;
-            this.txt_peso_bruto_original.EstadoNuevo = estadoControl54;
+            this.txt_peso_bruto_original.EstadoBuscar = estadoControl46;
+            this.txt_peso_bruto_original.EstadoEdicion = estadoControl47;
+            this.txt_peso_bruto_original.EstadoNuevo = estadoControl48;
             this.txt_peso_bruto_original.Location = new System.Drawing.Point(370, 118);
             this.txt_peso_bruto_original.Margin = new System.Windows.Forms.Padding(4);
             this.txt_peso_bruto_original.Modificado = true;
@@ -1515,9 +1513,9 @@ namespace AlmacenControlStock
             // 
             this.txt_peso_neto_original.EditValue = "";
             this.txt_peso_neto_original.EnterMoveNextControl = true;
-            this.txt_peso_neto_original.EstadoBuscar = estadoControl55;
-            this.txt_peso_neto_original.EstadoEdicion = estadoControl56;
-            this.txt_peso_neto_original.EstadoNuevo = estadoControl57;
+            this.txt_peso_neto_original.EstadoBuscar = estadoControl49;
+            this.txt_peso_neto_original.EstadoEdicion = estadoControl50;
+            this.txt_peso_neto_original.EstadoNuevo = estadoControl51;
             this.txt_peso_neto_original.Location = new System.Drawing.Point(623, 118);
             this.txt_peso_neto_original.Margin = new System.Windows.Forms.Padding(4);
             this.txt_peso_neto_original.Modificado = true;
@@ -1541,9 +1539,9 @@ namespace AlmacenControlStock
             // txt_col_descripcion
             // 
             this.txt_col_descripcion.EnterMoveNextControl = true;
-            this.txt_col_descripcion.EstadoBuscar = estadoControl58;
-            this.txt_col_descripcion.EstadoEdicion = estadoControl59;
-            this.txt_col_descripcion.EstadoNuevo = estadoControl60;
+            this.txt_col_descripcion.EstadoBuscar = estadoControl52;
+            this.txt_col_descripcion.EstadoEdicion = estadoControl53;
+            this.txt_col_descripcion.EstadoNuevo = estadoControl54;
             this.txt_col_descripcion.Location = new System.Drawing.Point(370, 83);
             this.txt_col_descripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_col_descripcion.Modificado = true;
@@ -1671,9 +1669,9 @@ namespace AlmacenControlStock
             // 
             // btn_reubicar
             // 
-            this.btn_reubicar.EstadoBuscar = estadoControl61;
-            this.btn_reubicar.EstadoEdicion = estadoControl62;
-            this.btn_reubicar.EstadoNuevo = estadoControl63;
+            this.btn_reubicar.EstadoBuscar = estadoControl55;
+            this.btn_reubicar.EstadoEdicion = estadoControl56;
+            this.btn_reubicar.EstadoNuevo = estadoControl57;
             this.btn_reubicar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_reubicar.ImageOptions.Image")));
             this.btn_reubicar.Location = new System.Drawing.Point(981, 315);
             this.btn_reubicar.Margin = new System.Windows.Forms.Padding(4);
@@ -1694,15 +1692,15 @@ namespace AlmacenControlStock
             // cbo_stm_codigo
             // 
             this.cbo_stm_codigo.EnterMoveNextControl = true;
-            this.cbo_stm_codigo.EstadoBuscar = estadoControl64;
-            this.cbo_stm_codigo.EstadoEdicion = estadoControl65;
-            this.cbo_stm_codigo.EstadoNuevo = estadoControl66;
+            this.cbo_stm_codigo.EstadoBuscar = estadoControl58;
+            this.cbo_stm_codigo.EstadoEdicion = estadoControl59;
+            this.cbo_stm_codigo.EstadoNuevo = estadoControl60;
             this.cbo_stm_codigo.Location = new System.Drawing.Point(0, 0);
             this.cbo_stm_codigo.Name = "cbo_stm_codigo";
             // 
             // 
             // 
-            this.cbo_stm_codigo.Properties.CloseUpKey = keyShortcut4;
+            this.cbo_stm_codigo.Properties.CloseUpKey = keyShortcut8;
             this.cbo_stm_codigo.Properties.NullText = "";
             this.cbo_stm_codigo.Size = new System.Drawing.Size(100, 26);
             this.cbo_stm_codigo.TabIndex = 0;
@@ -1735,11 +1733,11 @@ namespace AlmacenControlStock
             // txt_referencia
             // 
             this.txt_referencia.EnterMoveNextControl = true;
-            estadoControl67.Enabled = false;
-            this.txt_referencia.EstadoBuscar = estadoControl67;
-            estadoControl68.Enabled = false;
-            this.txt_referencia.EstadoEdicion = estadoControl68;
-            this.txt_referencia.EstadoNuevo = estadoControl69;
+            estadoControl64.Enabled = false;
+            this.txt_referencia.EstadoBuscar = estadoControl64;
+            estadoControl65.Enabled = false;
+            this.txt_referencia.EstadoEdicion = estadoControl65;
+            this.txt_referencia.EstadoNuevo = estadoControl66;
             this.txt_referencia.Location = new System.Drawing.Point(186, 234);
             this.txt_referencia.Margin = new System.Windows.Forms.Padding(4);
             this.txt_referencia.Modificado = true;
@@ -1774,9 +1772,9 @@ namespace AlmacenControlStock
             // txt_documento_referencia
             // 
             this.txt_documento_referencia.EnterMoveNextControl = true;
-            this.txt_documento_referencia.EstadoBuscar = estadoControl70;
-            this.txt_documento_referencia.EstadoEdicion = estadoControl71;
-            this.txt_documento_referencia.EstadoNuevo = estadoControl72;
+            this.txt_documento_referencia.EstadoBuscar = estadoControl67;
+            this.txt_documento_referencia.EstadoEdicion = estadoControl68;
+            this.txt_documento_referencia.EstadoNuevo = estadoControl69;
             this.txt_documento_referencia.Location = new System.Drawing.Point(739, 199);
             this.txt_documento_referencia.Margin = new System.Windows.Forms.Padding(4);
             this.txt_documento_referencia.Modificado = true;
@@ -1796,9 +1794,9 @@ namespace AlmacenControlStock
             // 
             // btn_GenerarResiduo
             // 
-            this.btn_GenerarResiduo.EstadoBuscar = estadoControl73;
-            this.btn_GenerarResiduo.EstadoEdicion = estadoControl74;
-            this.btn_GenerarResiduo.EstadoNuevo = estadoControl75;
+            this.btn_GenerarResiduo.EstadoBuscar = estadoControl70;
+            this.btn_GenerarResiduo.EstadoEdicion = estadoControl71;
+            this.btn_GenerarResiduo.EstadoNuevo = estadoControl72;
             this.btn_GenerarResiduo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_GenerarResiduo.ImageOptions.Image")));
             this.btn_GenerarResiduo.Location = new System.Drawing.Point(1155, 315);
             this.btn_GenerarResiduo.Margin = new System.Windows.Forms.Padding(4);
@@ -1812,9 +1810,9 @@ namespace AlmacenControlStock
             // txt_tara
             // 
             this.txt_tara.EnterMoveNextControl = true;
-            this.txt_tara.EstadoBuscar = estadoControl76;
-            this.txt_tara.EstadoEdicion = estadoControl77;
-            this.txt_tara.EstadoNuevo = estadoControl78;
+            this.txt_tara.EstadoBuscar = estadoControl91;
+            this.txt_tara.EstadoEdicion = estadoControl92;
+            this.txt_tara.EstadoNuevo = estadoControl93;
             this.txt_tara.FormatoControl = ucTextBox.Global.Formato.Decimal2;
             this.txt_tara.Location = new System.Drawing.Point(282, 315);
             this.txt_tara.Margin = new System.Windows.Forms.Padding(4);
@@ -1842,9 +1840,9 @@ namespace AlmacenControlStock
             // 
             this.txt_peso_bruto.Enabled = false;
             this.txt_peso_bruto.EnterMoveNextControl = true;
-            this.txt_peso_bruto.EstadoBuscar = estadoControl79;
-            this.txt_peso_bruto.EstadoEdicion = estadoControl80;
-            this.txt_peso_bruto.EstadoNuevo = estadoControl81;
+            this.txt_peso_bruto.EstadoBuscar = estadoControl76;
+            this.txt_peso_bruto.EstadoEdicion = estadoControl77;
+            this.txt_peso_bruto.EstadoNuevo = estadoControl78;
             this.txt_peso_bruto.FormatoControl = ucTextBox.Global.Formato.Decimal2;
             this.txt_peso_bruto.Location = new System.Drawing.Point(111, 315);
             this.txt_peso_bruto.Margin = new System.Windows.Forms.Padding(4);
@@ -1873,9 +1871,9 @@ namespace AlmacenControlStock
             // txt_peso_neto
             // 
             this.txt_peso_neto.EnterMoveNextControl = true;
-            this.txt_peso_neto.EstadoBuscar = estadoControl82;
-            this.txt_peso_neto.EstadoEdicion = estadoControl83;
-            this.txt_peso_neto.EstadoNuevo = estadoControl84;
+            this.txt_peso_neto.EstadoBuscar = estadoControl79;
+            this.txt_peso_neto.EstadoEdicion = estadoControl80;
+            this.txt_peso_neto.EstadoNuevo = estadoControl81;
             this.txt_peso_neto.FormatoControl = ucTextBox.Global.Formato.Decimal2;
             this.txt_peso_neto.Location = new System.Drawing.Point(467, 315);
             this.txt_peso_neto.Margin = new System.Windows.Forms.Padding(4);
@@ -1965,7 +1963,7 @@ namespace AlmacenControlStock
             // btnSeleccionarTodo
             // 
             this.btnSeleccionarTodo.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnSeleccionarTodo.Location = new System.Drawing.Point(11, 258);
+            this.btnSeleccionarTodo.Location = new System.Drawing.Point(11, 229);
             this.btnSeleccionarTodo.Name = "btnSeleccionarTodo";
             this.btnSeleccionarTodo.Size = new System.Drawing.Size(154, 31);
             this.btnSeleccionarTodo.TabIndex = 3;
@@ -1976,7 +1974,7 @@ namespace AlmacenControlStock
             // btnLimpiar
             // 
             this.btnLimpiar.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnLimpiar.Location = new System.Drawing.Point(190, 260);
+            this.btnLimpiar.Location = new System.Drawing.Point(190, 231);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(109, 31);
             this.btnLimpiar.TabIndex = 4;
@@ -2078,15 +2076,28 @@ namespace AlmacenControlStock
             // 
             this.c_tipo.Name = "c_tipo";
             // 
+            // btnBuscarFiltros
+            // 
+            this.btnBuscarFiltros.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBuscarFiltros.Location = new System.Drawing.Point(0, -1);
+            this.btnBuscarFiltros.Name = "btnBuscarFiltros";
+            this.btnBuscarFiltros.Size = new System.Drawing.Size(94, 34);
+            this.btnBuscarFiltros.TabIndex = 5;
+            this.btnBuscarFiltros.Text = "Buscar";
+            this.btnBuscarFiltros.UseVisualStyleBackColor = false;
+            this.btnBuscarFiltros.Click += new System.EventHandler(this.btnBuscarFiltros_Click);
+            // 
             // FrmAlmacenReubicacionStockMasivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.botonBuscar.Texto = "Actualizar";
             this.botonBuscar.Visible = true;
             this.botonGrabar.Visible = true;
             this.botonReporte.EnableModoBuscar = false;
             this.botonReporte.EnableModoNuevo = false;
             this.ClientSize = new System.Drawing.Size(1292, 703);
+            this.Controls.Add(this.btnBuscarFiltros);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnSeleccionarTodo);
             this.Controls.Add(this.pnl_Principal);
@@ -2094,6 +2105,7 @@ namespace AlmacenControlStock
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MostrarEstadoFormulario = false;
             this.Name = "FrmAlmacenReubicacionStockMasivo";
+            this.ShowInTaskbar = false;
             this.Text = "Reubicación de etiquetas por bloque";
             this.Click_Imprimir += new System.EventHandler(this.FrmAlmacenPesadoProductoProcesoIngreso_Click_Imprimir);
             this.Activated += new System.EventHandler(this.Frm_Activated);
@@ -2103,6 +2115,7 @@ namespace AlmacenControlStock
             this.Controls.SetChildIndex(this.pnl_Principal, 0);
             this.Controls.SetChildIndex(this.btnSeleccionarTodo, 0);
             this.Controls.SetChildIndex(this.btnLimpiar, 0);
+            this.Controls.SetChildIndex(this.btnBuscarFiltros, 0);
             ((System.ComponentModel.ISupportInitialize)(this.txt_bodega.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
@@ -2115,12 +2128,10 @@ namespace AlmacenControlStock
             ((System.ComponentModel.ISupportInitialize)(this.txt_peso_actual.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Detalle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grv_Detalle)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chk_pesado_manual.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_peso_actual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_puerto_seleccionado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lyt_pesado_manual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_tab_detalle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyt_puerto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
@@ -2140,6 +2151,8 @@ namespace AlmacenControlStock
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chk_pesado_manual.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lyt_pesado_manual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_stock_reubicado.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_excedente.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chk_habilitar_excedente_stock.Properties)).EndInit();
@@ -2299,5 +2312,6 @@ namespace AlmacenControlStock
         private DevExpress.XtraGrid.Columns.GridColumn eet_descripcion;
         private System.Windows.Forms.Button btnSeleccionarTodo;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnBuscarFiltros;
     }
 }

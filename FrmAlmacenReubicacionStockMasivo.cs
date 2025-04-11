@@ -120,7 +120,7 @@ namespace AlmacenControlStock
             Dialog.MostrarMensajeOperacionNoPermitida();
 
             //Modulo.Instance.Limpiar(pnl_Principal);
-            //if (Accion == int.Parse(Modulo.AccionEnt.get_PL_Buscar("")[0]))
+            //if (Accion == ACCION_BUSCAR)
             //{
             //    Limpiar();
             //}
@@ -476,63 +476,8 @@ namespace AlmacenControlStock
                 InicializarBalanza();
             }
 
-            //CargarCombos();
-
-            //Se carga la informacion del bulto original
-            //txt_articulo.Text = articulo;
-            //txt_descripcion.Text = descripcion;
-            //txt_lote.Text = lote;
-            //txt_col_descripcion.Text = col_descripcion;
-            //txt_bodega.Text = bodega;
-            //txt_peso_bruto_original.Text = peso_bruto.ToString("N2");
-            //txt_peso_neto_original.Text = peso_neto.ToString("N2");
-            //txt_ubicacion.Text = ubicacion;
-            //txt_identificador.Text = identificador.ToString();
-            //txt_etiqueta.Text = etiqueta.ToString();
-
-            //txt_stock_por_reubicar.Text = peso_neto.ToString("N2");
-            //txt_stock_reubicado.Text = "0.00";
-
-            //txt_documento_referencia.Text = "REUBICACIÓN PARTICIÓN";
-            //txt_referencia.Text = "REUBICACIÓN PARTICIÓN ETQ";
-
-            //if (modo == 1)
-            //{
-            //    //Por defecto se indica que se migrará todo:
-            //    txt_peso_bruto.Text = peso_bruto.ToString("N2");
-            //    txt_peso_neto.Text = peso_neto.ToString("N2");
-            //    txt_tara.Text = peso_tara.ToString("N2");
-            //}
-            //else
-            //{
-            //    txt_peso_bruto.Text = "0.00";
-            //    txt_peso_neto.Text = "0.00";
-            //    txt_tara.Text = "0.00";
-            //}
-
             Modulo.Instance.EnfocarControl(txt_ubi_codigo);
 
-            //Cargar la configuracion de busquedas de colores
-            //if (tar_codigo == 3) //Para el tipo de articulo PRODUCTO EN PROCESO, se ocultan las columnas de ACATEX
-            //{
-            //    txt_col_codigo.Columnas[0].Visible = true;
-            //    txt_col_codigo.Columnas[1].Visible = true;
-            //    txt_col_codigo.Columnas[2].Visible = false;
-            //    txt_col_codigo.Columnas[3].Visible = false;
-
-            //    txt_col_codigo.Columnas[1].Caption = "Nombre";
-
-            //    //Además, el color por defecto es "CRUDO"
-            //    txt_col_codigo.Text = "6";
-            //    txt_col_codigo.Fn_EjecutarBusqueda();
-            //}
-            //else
-            //{
-            //    txt_col_codigo.Columnas[0].Visible = true;
-            //    txt_col_codigo.Columnas[1].Visible = true;
-            //    txt_col_codigo.Columnas[2].Visible = true;
-            //    txt_col_codigo.Columnas[3].Visible = true;
-            //}
         }
 
         private void Buscar()
@@ -616,6 +561,7 @@ namespace AlmacenControlStock
         private void Nuevo()
         {
             //Modulo.Instance.EnfocarControl(txt_Control);
+            Dialog.MostrarMensajeOperacionNoPermitida();
         }
 
         private void Grabar()
@@ -627,11 +573,6 @@ namespace AlmacenControlStock
             if (!Modulo.Instance.VerificarModificados(this))
                 return;
 
-            //if (dgv_Detalle.Fn_ObtenerNumeroFilas() == 0)
-            //{
-            //    Dialog.MostrarMensajeAdvertencia("No ha ingresado ninguna etiqueta. Por favor, verifique.");
-            //    return;
-            //}
             if (dgv_Detalle.Fn_ObtenerNumeroFilasSeleccionadas() == 0)
             {
                 Dialog.MostrarMensajeAdvertencia("No ha seleccionado ninguna etiqueta. Por favor, verifique.");
@@ -639,20 +580,18 @@ namespace AlmacenControlStock
             }
 
             if (string.IsNullOrEmpty(txt_ubi_codigo.EditValue?.ToString()))
-{
+            {
                 Dialog.MostrarMensajeAdvertencia("Debe ingresar un código de ubicación");
                 Modulo.Instance.EnfocarControl(txt_ubi_codigo);
                 return;
             }
 
-            //Se verifica que no haya stock por reubicar:
-            //if (Parser.GetDecimal(txt_stock_por_reubicar.Text) > 0)
-            //{
-            //    Dialog.MostrarMensajeAdvertencia("Existe stock que no ha sido ubicado. Por favor, verifique.");
-            //    txt_stock_por_reubicar.Text = Parser.GetDecimal(txt_stock_por_reubicar.Text).ToString();
-            //    txt_stock_por_reubicar.Focus();
-            //    return;
-            //}
+            if (string.IsNullOrEmpty(txt_ubi_descripcion.EditValue?.ToString()))
+            {
+                Dialog.MostrarMensajeAdvertencia("Debe ingresar un código de ubicación");
+                Modulo.Instance.EnfocarControl(txt_ubi_codigo);
+                return;
+            }
 
             if (Dialog.MostrarMensajePregunta("¿Está seguro de reubicar las etiquetas seleccionadas?", Dialog.BotonPorDefecto.Si) != DialogResult.Yes)
                 return;
@@ -674,7 +613,7 @@ namespace AlmacenControlStock
 
                 object[] parameters = {
                     dtBultos,
-                    Parser.GetString(txt_ubi_codigo.Text),
+                    Parser.GetString(txt_ubi_descripcion.Text),
                     PL_UsuarioE.PL_UsuarioCodigo
                 };
 
@@ -689,29 +628,13 @@ namespace AlmacenControlStock
                     Dialog.MostrarMensajeConfirmacionOperacion();
                     bModificado = true;
                     Modulo.Instance.InicializarEstadoControles(this);
-
-                    //Aquí se debe bloquear toda la pantalla y solo se debe abrir la impresion de etiquetas:
-                    //ImprimirEtiquetas(Parser.GetInt(resultado[1]), Parser.GetInt(resultado[2]), Parser.GetInt(resultado[3]));
                     //DialogResult = DialogResult.Yes;
-
-                    DialogResult = DialogResult.Yes;
+                    PL_Buscar();
                 }
                 else
                 {
                     Dialog.MostrarMensajeError(resultado[4]);
                 }
-
-                //FALTA PROGRAMAR ESTE EVENTO: (SE DEBE ENVIAR LOS CODIGOS DE MOVIMIENTO:
-
-
-                //Aquí se vuelve a inicializar:
-
-                //PL_Limpiar();
-
-                //DialogResult = DialogResult.Yes;
-
-                //cbo_stm_codigo.ItemIndex = cbo_stm_codigo.Properties.GetDataSourceRowIndex("stm_codigo", sub_tipo_movimiento);
-                //cbo_lpr_codigo.ItemIndex = cbo_lpr_codigo.Properties.GetDataSourceRowIndex("lpr_codigo", linea_produccion);
             }
             catch (Exception ex)
             {
@@ -1576,6 +1499,9 @@ namespace AlmacenControlStock
             PL_Buscar();
         }
 
-        
+        private void btnBuscarFiltros_Click(object sender, EventArgs e)
+        {
+            PL_Buscar();
+        }
     }
 }

@@ -29,26 +29,26 @@ namespace AlmacenControlStock
         /// </summary>
         private void InitializeComponent()
         {
-            ucCombobox.Global.EstadoControl estadoControl10 = new ucCombobox.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl11 = new ucCombobox.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl12 = new ucCombobox.Global.EstadoControl();
-            DevExpress.Utils.KeyShortcut keyShortcut22 = new DevExpress.Utils.KeyShortcut();
-            ucDataGridView.Clases.Global.EstadoControl estadoControl13 = new ucDataGridView.Clases.Global.EstadoControl();
-            ucDataGridView.Clases.Global.EstadoControl estadoControl14 = new ucDataGridView.Clases.Global.EstadoControl();
-            ucDataGridView.Clases.Global.EstadoControl estadoControl15 = new ucDataGridView.Clases.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl13 = new ucCombobox.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl14 = new ucCombobox.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl15 = new ucCombobox.Global.EstadoControl();
+            DevExpress.Utils.KeyShortcut keyShortcut4 = new DevExpress.Utils.KeyShortcut();
+            ucDataGridView.Clases.Global.EstadoControl estadoControl1 = new ucDataGridView.Clases.Global.EstadoControl();
+            ucDataGridView.Clases.Global.EstadoControl estadoControl2 = new ucDataGridView.Clases.Global.EstadoControl();
+            ucDataGridView.Clases.Global.EstadoControl estadoControl3 = new ucDataGridView.Clases.Global.EstadoControl();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleIconSet formatConditionRuleIconSet2 = new DevExpress.XtraEditors.FormatConditionRuleIconSet();
             DevExpress.XtraEditors.FormatConditionIconSet formatConditionIconSet2 = new DevExpress.XtraEditors.FormatConditionIconSet();
             DevExpress.XtraEditors.FormatConditionIconSetIcon formatConditionIconSetIcon3 = new DevExpress.XtraEditors.FormatConditionIconSetIcon();
             DevExpress.XtraEditors.FormatConditionIconSetIcon formatConditionIconSetIcon4 = new DevExpress.XtraEditors.FormatConditionIconSetIcon();
-            ucCombobox.Global.EstadoControl estadoControl1 = new ucCombobox.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl2 = new ucCombobox.Global.EstadoControl();
-            ucCombobox.Global.EstadoControl estadoControl3 = new ucCombobox.Global.EstadoControl();
-            DevExpress.Utils.KeyShortcut keyShortcut23 = new DevExpress.Utils.KeyShortcut();
             ucCombobox.Global.EstadoControl estadoControl4 = new ucCombobox.Global.EstadoControl();
             ucCombobox.Global.EstadoControl estadoControl5 = new ucCombobox.Global.EstadoControl();
             ucCombobox.Global.EstadoControl estadoControl6 = new ucCombobox.Global.EstadoControl();
-            DevExpress.Utils.KeyShortcut keyShortcut24 = new DevExpress.Utils.KeyShortcut();
+            DevExpress.Utils.KeyShortcut keyShortcut5 = new DevExpress.Utils.KeyShortcut();
+            ucCombobox.Global.EstadoControl estadoControl7 = new ucCombobox.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl8 = new ucCombobox.Global.EstadoControl();
+            ucCombobox.Global.EstadoControl estadoControl9 = new ucCombobox.Global.EstadoControl();
+            DevExpress.Utils.KeyShortcut keyShortcut6 = new DevExpress.Utils.KeyShortcut();
             this.APLICADO_EXACTUS_CODIGO = new DevExpress.XtraGrid.Columns.GridColumn();
             this.APLICADO_EXACTUS = new DevExpress.XtraGrid.Columns.GridColumn();
             this.pnl_Principal = new DevExpress.XtraEditors.PanelControl();
@@ -147,10 +147,10 @@ namespace AlmacenControlStock
             // 
             this.pnl_Principal.Controls.Add(this.layoutControl1);
             this.pnl_Principal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_Principal.Location = new System.Drawing.Point(0, 38);
-            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_Principal.Location = new System.Drawing.Point(0, 34);
+            this.pnl_Principal.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_Principal.Name = "pnl_Principal";
-            this.pnl_Principal.Size = new System.Drawing.Size(1461, 646);
+            this.pnl_Principal.Size = new System.Drawing.Size(1461, 650);
             this.pnl_Principal.TabIndex = 2;
             // 
             // layoutControl1
@@ -162,23 +162,23 @@ namespace AlmacenControlStock
             this.layoutControl1.Controls.Add(this.cbo_tmo_codigo);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(2, 2);
-            this.layoutControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.layoutControl1.Margin = new System.Windows.Forms.Padding(4);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(790, 264, 650, 400);
             this.layoutControl1.OptionsFocus.EnableAutoTabOrder = false;
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(1457, 642);
+            this.layoutControl1.Size = new System.Drawing.Size(1457, 646);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // cbo_bpu_modulo
             // 
             this.cbo_bpu_modulo.EnterMoveNextControl = true;
-            this.cbo_bpu_modulo.EstadoBuscar = estadoControl10;
-            this.cbo_bpu_modulo.EstadoEdicion = estadoControl11;
-            this.cbo_bpu_modulo.EstadoNuevo = estadoControl12;
-            this.cbo_bpu_modulo.Location = new System.Drawing.Point(896, 10);
-            this.cbo_bpu_modulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbo_bpu_modulo.EstadoBuscar = estadoControl13;
+            this.cbo_bpu_modulo.EstadoEdicion = estadoControl14;
+            this.cbo_bpu_modulo.EstadoNuevo = estadoControl15;
+            this.cbo_bpu_modulo.Location = new System.Drawing.Point(895, 9);
+            this.cbo_bpu_modulo.Margin = new System.Windows.Forms.Padding(4);
             this.cbo_bpu_modulo.Name = "cbo_bpu_modulo";
             // 
             // 
@@ -190,14 +190,14 @@ namespace AlmacenControlStock
             this.cbo_bpu_modulo.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.cbo_bpu_modulo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbo_bpu_modulo.Properties.CloseUpKey = keyShortcut22;
+            this.cbo_bpu_modulo.Properties.CloseUpKey = keyShortcut4;
             this.cbo_bpu_modulo.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("bpu_codigo", "bpu_codigo", 30, DevExpress.Utils.FormatType.None, "", false, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("bpu_descripcion", "bpu_descripcion", 30, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.cbo_bpu_modulo.Properties.NullText = "";
             this.cbo_bpu_modulo.Properties.ShowFooter = false;
             this.cbo_bpu_modulo.Properties.ShowHeader = false;
-            this.cbo_bpu_modulo.Size = new System.Drawing.Size(232, 26);
+            this.cbo_bpu_modulo.Size = new System.Drawing.Size(234, 26);
             this.cbo_bpu_modulo.StyleController = this.layoutControl1;
             this.cbo_bpu_modulo.TabIndex = 5;
             this.cbo_bpu_modulo.EditValueChanged += new System.EventHandler(this.cbo_bpu_modulo_EditValueChanged);
@@ -209,20 +209,20 @@ namespace AlmacenControlStock
             // 
             // 
             // 
-            this.dgv_Pesado.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dgv_Pesado.EstadoBuscar = estadoControl13;
-            this.dgv_Pesado.EstadoEdicion = estadoControl14;
-            this.dgv_Pesado.EstadoNuevo = estadoControl15;
+            this.dgv_Pesado.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            this.dgv_Pesado.EstadoBuscar = estadoControl1;
+            this.dgv_Pesado.EstadoEdicion = estadoControl2;
+            this.dgv_Pesado.EstadoNuevo = estadoControl3;
             this.dgv_Pesado.HabilitarFooter = true;
-            this.dgv_Pesado.Location = new System.Drawing.Point(10, 45);
+            this.dgv_Pesado.Location = new System.Drawing.Point(9, 44);
             this.dgv_Pesado.MainView = this.grv_Pesado;
-            this.dgv_Pesado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgv_Pesado.Margin = new System.Windows.Forms.Padding(4);
             this.dgv_Pesado.MostrarPanelAgrupacion = false;
             this.dgv_Pesado.Name = "dgv_Pesado";
             this.dgv_Pesado.NombreGrilla = "Pesados pendientes de enviar a Almacén";
             this.dgv_Pesado.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.cbo_ubicacion});
-            this.dgv_Pesado.Size = new System.Drawing.Size(1437, 587);
+            this.dgv_Pesado.Size = new System.Drawing.Size(1439, 593);
             this.dgv_Pesado.TabIndex = 4;
             this.dgv_Pesado.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grv_Pesado});
@@ -696,11 +696,11 @@ namespace AlmacenControlStock
             // cbo_tar_codigo
             // 
             this.cbo_tar_codigo.EnterMoveNextControl = true;
-            this.cbo_tar_codigo.EstadoBuscar = estadoControl1;
-            this.cbo_tar_codigo.EstadoEdicion = estadoControl2;
-            this.cbo_tar_codigo.EstadoNuevo = estadoControl3;
-            this.cbo_tar_codigo.Location = new System.Drawing.Point(72, 10);
-            this.cbo_tar_codigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbo_tar_codigo.EstadoBuscar = estadoControl4;
+            this.cbo_tar_codigo.EstadoEdicion = estadoControl5;
+            this.cbo_tar_codigo.EstadoNuevo = estadoControl6;
+            this.cbo_tar_codigo.Location = new System.Drawing.Point(71, 9);
+            this.cbo_tar_codigo.Margin = new System.Windows.Forms.Padding(4);
             this.cbo_tar_codigo.Name = "cbo_tar_codigo";
             // 
             // 
@@ -712,14 +712,14 @@ namespace AlmacenControlStock
             this.cbo_tar_codigo.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.cbo_tar_codigo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbo_tar_codigo.Properties.CloseUpKey = keyShortcut23;
+            this.cbo_tar_codigo.Properties.CloseUpKey = keyShortcut5;
             this.cbo_tar_codigo.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("tar_codigo", "tar_codigo", 30, DevExpress.Utils.FormatType.None, "", false, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("tar_descripcion", "tar_descripcion", 30, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.cbo_tar_codigo.Properties.NullText = "";
             this.cbo_tar_codigo.Properties.ShowFooter = false;
             this.cbo_tar_codigo.Properties.ShowHeader = false;
-            this.cbo_tar_codigo.Size = new System.Drawing.Size(380, 26);
+            this.cbo_tar_codigo.Size = new System.Drawing.Size(382, 26);
             this.cbo_tar_codigo.StyleController = this.layoutControl1;
             this.cbo_tar_codigo.TabIndex = 0;
             this.cbo_tar_codigo.EditValueChanged += new System.EventHandler(this.cbo_tar_codigo_EditValueChanged);
@@ -727,11 +727,11 @@ namespace AlmacenControlStock
             // cbo_tmo_codigo
             // 
             this.cbo_tmo_codigo.EnterMoveNextControl = true;
-            this.cbo_tmo_codigo.EstadoBuscar = estadoControl4;
-            this.cbo_tmo_codigo.EstadoEdicion = estadoControl5;
-            this.cbo_tmo_codigo.EstadoNuevo = estadoControl6;
-            this.cbo_tmo_codigo.Location = new System.Drawing.Point(643, 10);
-            this.cbo_tmo_codigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbo_tmo_codigo.EstadoBuscar = estadoControl7;
+            this.cbo_tmo_codigo.EstadoEdicion = estadoControl8;
+            this.cbo_tmo_codigo.EstadoNuevo = estadoControl9;
+            this.cbo_tmo_codigo.Location = new System.Drawing.Point(642, 9);
+            this.cbo_tmo_codigo.Margin = new System.Windows.Forms.Padding(4);
             this.cbo_tmo_codigo.Name = "cbo_tmo_codigo";
             // 
             // 
@@ -743,7 +743,7 @@ namespace AlmacenControlStock
             this.cbo_tmo_codigo.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
             this.cbo_tmo_codigo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbo_tmo_codigo.Properties.CloseUpKey = keyShortcut24;
+            this.cbo_tmo_codigo.Properties.CloseUpKey = keyShortcut6;
             this.cbo_tmo_codigo.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("tmo_codigo", "tmo_codigo", 30, DevExpress.Utils.FormatType.None, "", false, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("tmo_descripcion", "tmo_descripcion", 30, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
@@ -751,7 +751,7 @@ namespace AlmacenControlStock
             this.cbo_tmo_codigo.Properties.NullText = "";
             this.cbo_tmo_codigo.Properties.ShowFooter = false;
             this.cbo_tmo_codigo.Properties.ShowHeader = false;
-            this.cbo_tmo_codigo.Size = new System.Drawing.Size(152, 26);
+            this.cbo_tmo_codigo.Size = new System.Drawing.Size(154, 26);
             this.cbo_tmo_codigo.StyleController = this.layoutControl1;
             this.cbo_tmo_codigo.TabIndex = 1;
             this.cbo_tmo_codigo.EditValueChanged += new System.EventHandler(this.cbo_tmo_codigo_EditValueChanged);
@@ -836,7 +836,7 @@ namespace AlmacenControlStock
             this.layoutControlItem1.Control = this.dgv_Pesado;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 35);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1443, 593);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1443, 597);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -856,12 +856,13 @@ namespace AlmacenControlStock
             // 
             // btnReubicacionBloque
             // 
+            this.btnReubicacionBloque.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnReubicacionBloque.Location = new System.Drawing.Point(1031, -1);
             this.btnReubicacionBloque.Name = "btnReubicacionBloque";
-            this.btnReubicacionBloque.Size = new System.Drawing.Size(178, 26);
+            this.btnReubicacionBloque.Size = new System.Drawing.Size(178, 35);
             this.btnReubicacionBloque.TabIndex = 3;
             this.btnReubicacionBloque.Text = "Reubicacion etiquetas";
-            this.btnReubicacionBloque.UseVisualStyleBackColor = true;
+            this.btnReubicacionBloque.UseVisualStyleBackColor = false;
             this.btnReubicacionBloque.Click += new System.EventHandler(this.btnReubicacionBloque_Click);
             // 
             // FrmAlmacenRegularizaIngresos
@@ -885,7 +886,7 @@ namespace AlmacenControlStock
             this.Controls.Add(this.btnReubicacionBloque);
             this.Controls.Add(this.pnl_Principal);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MostrarEstadoFormulario = false;
             this.Name = "FrmAlmacenRegularizaIngresos";
             this.Text = "Regularización de ingresos - Asignación de ubicaciones";
