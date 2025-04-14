@@ -145,7 +145,6 @@ namespace AlmacenControlStock
             this.emptySpaceItem7 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
             this.pnl_Principal = new DevExpress.XtraEditors.PanelControl();
-            this.btnReubicarBloque = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_codigo_articulo.Properties)).BeginInit();
@@ -524,7 +523,7 @@ namespace AlmacenControlStock
             this.tb_bultos.botonPersonalizado6.Texto = "";
             this.tb_bultos.botonPersonalizado7.Imagen = global::AlmacenControlStock.Properties.Resources._35690___anticlockwise_arrow_rotate;
             this.tb_bultos.botonPersonalizado7.Texto = "Reubicar et.";
-            this.tb_bultos.botonPersonalizado7.Visible = true;
+            this.tb_bultos.botonPersonalizado7.Visible = false;
             this.tb_bultos.botonPersonalizado9.Imagen = global::AlmacenControlStock.Properties.Resources._35974___disk_save;
             this.tb_bultos.botonPersonalizado9.Texto = "Guardar cambios";
             this.tb_bultos.botonProcesar.EnableModoBuscar = true;
@@ -992,7 +991,7 @@ namespace AlmacenControlStock
             this.xtraTabPage2.Enabled = true;
             this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1287, 519);
+            this.xtraTabPage2.Size = new System.Drawing.Size(1287, 523);
             this.xtraTabPage2.Text = "Kardex";
             // 
             // layoutControl3
@@ -1003,7 +1002,7 @@ namespace AlmacenControlStock
             this.layoutControl3.Margin = new System.Windows.Forms.Padding(4);
             this.layoutControl3.Name = "layoutControl3";
             this.layoutControl3.Root = this.layoutControlGroup1;
-            this.layoutControl3.Size = new System.Drawing.Size(1287, 519);
+            this.layoutControl3.Size = new System.Drawing.Size(1287, 523);
             this.layoutControl3.TabIndex = 0;
             this.layoutControl3.Text = "layoutControl3";
             // 
@@ -1026,7 +1025,7 @@ namespace AlmacenControlStock
             this.dgv_kardex.Name = "dgv_kardex";
             this.dgv_kardex.NombreArchivoExportado = "KardexLote";
             this.dgv_kardex.NombreGrilla = "Kardex del Lote";
-            this.dgv_kardex.Size = new System.Drawing.Size(1263, 495);
+            this.dgv_kardex.Size = new System.Drawing.Size(1263, 499);
             this.dgv_kardex.TabIndex = 4;
             this.dgv_kardex.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.grv_kardex});
@@ -1176,7 +1175,7 @@ namespace AlmacenControlStock
             this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem7});
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(1287, 519);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(1287, 523);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem7
@@ -1184,7 +1183,7 @@ namespace AlmacenControlStock
             this.layoutControlItem7.Control = this.dgv_kardex;
             this.layoutControlItem7.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(1267, 499);
+            this.layoutControlItem7.Size = new System.Drawing.Size(1267, 503);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
             // 
@@ -1408,16 +1407,6 @@ namespace AlmacenControlStock
             this.pnl_Principal.Size = new System.Drawing.Size(1311, 650);
             this.pnl_Principal.TabIndex = 2;
             // 
-            // btnReubicarBloque
-            // 
-            this.btnReubicarBloque.Location = new System.Drawing.Point(897, 160);
-            this.btnReubicarBloque.Name = "btnReubicarBloque";
-            this.btnReubicarBloque.Size = new System.Drawing.Size(111, 29);
-            this.btnReubicarBloque.TabIndex = 3;
-            this.btnReubicarBloque.Text = "Reubicar et.";
-            this.btnReubicarBloque.UseVisualStyleBackColor = true;
-            this.btnReubicarBloque.Click += new System.EventHandler(this.btnReubicarBloque_Click);
-            // 
             // FrmAlmacenControlStockDetalle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -1428,7 +1417,6 @@ namespace AlmacenControlStock
             this.botonReporte.EnableModoBuscar = false;
             this.botonReporte.EnableModoNuevo = false;
             this.ClientSize = new System.Drawing.Size(1311, 684);
-            this.Controls.Add(this.btnReubicarBloque);
             this.Controls.Add(this.pnl_Principal);
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -1442,7 +1430,6 @@ namespace AlmacenControlStock
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Frm_FormClosed);
             this.Load += new System.EventHandler(this.Frm_Load);
             this.Controls.SetChildIndex(this.pnl_Principal, 0);
-            this.Controls.SetChildIndex(this.btnReubicarBloque, 0);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txt_codigo_articulo.Properties)).EndInit();
@@ -1574,6 +1561,5 @@ namespace AlmacenControlStock
         private UcCheckButton chk_ver_etiquetas_consumidas;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem13;
         private DevExpress.XtraLayout.SimpleSeparator simpleSeparator1;
-        private System.Windows.Forms.Button btnReubicarBloque;
     }
 }

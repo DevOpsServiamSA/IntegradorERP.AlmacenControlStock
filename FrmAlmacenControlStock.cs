@@ -791,7 +791,7 @@ namespace AlmacenControlStock
         {
             object[] parameters = { cbo_tar_codigo.EditValue, "", PL_Sistema, PL_Item };
             //PL_Ruta_Esamblados = @"C:\Users\usuarioserviam\Desktop\Proyecto\IntegradorERP\Fuentes\Proyectos\AlmacenControlStockMovimiento\bin\Debug\";
-            PL_Ruta_Esamblados = @"C:\Marco\Backup JJ\Proyectos\AlmacenControlStockMovimiento\bin\Debug\";
+            //PL_Ruta_Esamblados = @"C:\Marco\Backup JJ\Proyectos\AlmacenControlStockMovimiento\bin\Debug\";
             Fn_AbrirFormulario("AlmacenControlStockMovimiento", this, parameters, true, OrigenPermisos.FormPadre);
             //PL_Ruta_Esamblados = PL_Ruta_Esamblados_Default;
 
@@ -849,10 +849,10 @@ namespace AlmacenControlStock
                     2 //Tipo 2: Modulo Almacen
                 };
 
-                //PL_Ruta_Esamblados = @"C:\Marco\Backup JJ\Proyectos\Dev\AlmacenPesadoArticuloDetalle\bin\Debug";
+                //PL_Ruta_Esamblados = @"C:\Marco\Backup JJ\Proyectos\Dev\Repo\AlmacenPesadoArticuloDetalle\bin\Debug";
                 //Fn_AbrirFormulario("AlmacenPesadoArticuloDetalle", this, parameters, false, OrigenPermisos.FormPadre);
                 Fn_AbrirFormulario("AlmacenPesadoArticuloDetalle", this, parameters, false, OrigenPermisos.FormPadre);
-                PL_Ruta_Esamblados = PL_Ruta_Esamblados_Default;
+                //PL_Ruta_Esamblados = PL_Ruta_Esamblados_Default;
 
                 //if (bModificado)
                 //{
